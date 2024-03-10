@@ -1,5 +1,7 @@
 # TABLE
 ## TABLE <br><br>
+https://gemini.google.com/app/7d5f574ef57dbe70
+
 
 ### How UITableView works (Cơ chế hoạt động của UITableView)
 #### 1.Concept: (Khái Niệm)
