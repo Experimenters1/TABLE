@@ -22,7 +22,11 @@ https://gemini.google.com/app/7d5f574ef57dbe70
 + ) Khi người dùng tương tác với **tableview (nhấn, vuốt, v.v.), delegate** sẽ được thông báo và xử lý các hành động tương ứng.  <br><br>
 
 ### 4. cell reuse( Tái sử dụng )
-+ ) Để tối ưu hóa hiệu suất, **tableview** sử dụng cơ chế tái sử dụng ô.
++ ) Để tối ưu hóa hiệu suất, **tableview** sử dụng cơ chế tái sử dụng ô. <br><br>
++ ) Khi một ô không còn hiển thị trên màn hình, nó sẽ được lưu vào bộ nhớ **cache.** <br><br>
++ ) Khi cần hiển thị một ô mới, tableview sẽ kiểm tra bộ nhớ cache và sử dụng lại ô đã lưu trữ nếu có. <br><br>
++ ) Việc tái sử dụng ô giúp giảm thiểu việc tạo và hủy các ô, **thereby improving performance.** <br><br>
+
 
 
 
